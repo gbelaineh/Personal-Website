@@ -2,8 +2,6 @@ import React from 'react';
 import {
   BrowserRouter as Router, Route, NavLink, Switch,
 } from 'react-router-dom';
-import Controls from './controls';
-import Counter from './counter';
 
 const About = (props) => {
   return <div> All there is to know about me</div>;
@@ -45,8 +43,6 @@ const App = (props) => {
           <Route exact path="/test/:id" component={Test} />
           <Route component={FallBack} />
         </Switch>
-        <Counter />
-        <Controls />
 
       </div>
     </Router>
