@@ -1,13 +1,11 @@
 import React from 'react';
-import About from './About';
+import About from './pages/About';
 
 const App = (props) => {
   return (
 
     <div>
-      App
       <About />
-
     </div>
 
   );

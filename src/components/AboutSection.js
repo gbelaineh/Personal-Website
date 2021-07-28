@@ -1,17 +1,13 @@
 import React from 'react';
 
-const About = () => {
+const AboutSection = () => {
   return (
-    <div>
-      About
+    <div className="AboutSection">
       <div className="Name">
         Gebriel Molla Belaineh
       </div>
       <div className="Bio">
         Blah Blah
-      </div>
-      <div className="Contact">
-        <button type="button">Contact us </button>
       </div>
       <div className="image">
         image
@@ -20,4 +16,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutSection;
