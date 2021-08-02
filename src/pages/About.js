@@ -6,7 +6,6 @@ import SkillSection from '../components/SkillsSection';
 const About = () => {
   return (
     <div className="About">
-      About
       <AboutSection />
       <SkillSection />
       <ContactSection />
